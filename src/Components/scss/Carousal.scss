@@ -1,0 +1,54 @@
+.carousel-item img {
+  height: 70vh;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: ">";
+  font-size: 40px;
+  font-weight: bolder;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 40px;
+  font-weight: bolder;
+  color: black;
+}
+
+#carousel1 {
+  left: 10%;
+  top: 20%;
+  bottom: auto;
+  text-align: left;
+  background-color: white;
+  color: black;
+  font-size: xx-large;
+  max-width: 5vw;
+  right: auto;
+  padding: 5px;
+  font-family: "Poppins", sans-serif;
+}
+
+#carousel2 {
+  right: 5%;
+  top: 10%;
+  bottom: auto;
+  text-align: left;
+  background-color: white;
+  color: black;
+  font-size: xx-large;
+  max-width: 5vwpx;
+  left: auto;
+  padding: 5px;
+  font-family: "Poppins", sans-serif;
+
+}
