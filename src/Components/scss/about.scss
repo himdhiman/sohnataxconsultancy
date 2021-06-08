@@ -1,160 +1,61 @@
-@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-#team {
-  background: #eee !important;
-}
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat:wght@700&display=swap");
 
-.btn-primary:hover,
-.btn-primary:focus {
-  background-color: #108d6f;
-  border-color: #108d6f;
-  box-shadow: none;
-  outline: none;
-}
-
-.btn-primary {
-  color: #fff;
-  background-color: #007b5e;
-  border-color: #007b5e;
-}
-
-section {
-  padding: 60px 0;
-}
-
-section .section-title {
+.about-heading {
   text-align: center;
-  color: #007b5e;
-  margin-bottom: 50px;
-  text-transform: uppercase;
+  color: white;
+  font-size: 2rem;
+  font-family: "Caveat", cursive;
 }
 
-#team .card {
-  border: none;
-  background: #ffffff;
+.about-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.image-flip:hover .backside,
-.image-flip.hover .backside {
-  -webkit-transform: rotateY(0deg);
-  -moz-transform: rotateY(0deg);
-  -o-transform: rotateY(0deg);
-  -ms-transform: rotateY(0deg);
-  transform: rotateY(0deg);
-  border-radius: 0.25rem;
+.about-content {
+  margin: 1rem auto;
+  // max-width: 650px;
+  // min-width: 650px;
+  min-height: 12.5rem;
+  // max-height: 200px;
+  // background-color: white;
+  border-radius: 1rem;
+  p {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    // margin-left: 7rem;
+    // margin-right: 7rem;
+    font-family: "Architects Daughter", cursive;
+    transition-duration: 1s;
+  }
+
+  img {
+    display: block;
+    max-height: 12.5rem;
+    min-width: 31.25rem;
+    border-radius: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 1s;
+  }
+
+  img:hover {
+    transform: scale(1.05);
+  }
+  p:hover {
+    transform: scale(1.05);
+  }
 }
 
-.image-flip:hover .frontside,
-.image-flip.hover .frontside {
-  -webkit-transform: rotateY(180deg);
-  -moz-transform: rotateY(180deg);
-  -o-transform: rotateY(180deg);
-  transform: rotateY(180deg);
+.cont1 {
+  max-width: 50rem;
+  min-width: 50rem;
 }
-
-.mainflip {
-  -webkit-transition: 1s;
-  -webkit-transform-style: preserve-3d;
-  -ms-transition: 1s;
-  -moz-transition: 1s;
-  -moz-transform: perspective(1000px);
-  -moz-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  transition: 1s;
-  transform-style: preserve-3d;
-  position: relative;
-}
-
-.frontside {
-  position: relative;
-  -webkit-transform: rotateY(0deg);
-  -ms-transform: rotateY(0deg);
-  z-index: 2;
-  margin-bottom: 30px;
-  border-width: thick;
-  border-color: black;
-}
-
-.backside {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: white;
-  -webkit-transform: rotateY(-180deg);
-  -moz-transform: rotateY(-180deg);
-  -o-transform: rotateY(-180deg);
-  -ms-transform: rotateY(-180deg);
-  transform: rotateY(-180deg);
-  -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-  -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-  box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-  border-width: thick;
-  border-color: black;
-}
-
-.frontside,
-.backside {
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-transition: 1s;
-  -webkit-transform-style: preserve-3d;
-  -moz-transition: 1s;
-  -moz-transform-style: preserve-3d;
-  -o-transition: 1s;
-  -o-transform-style: preserve-3d;
-  -ms-transition: 1s;
-  -ms-transform-style: preserve-3d;
-  transition: 1s;
-  transform-style: preserve-3d;
-}
-
-.frontside .card,
-.backside .card {
-  min-height: 250px;
-}
-
-.backside .card a {
-  font-size: 20px;
-  color: #007b5e !important;
-}
-
-.frontside .card .card-title,
-.backside .card .card-title {
-  color: #007b5e !important;
-}
-
-#card-title-front {
-  align-items: center;
-  padding-top: 12vh;
-  font-size: xx-large;
-}
-
-.frontside .card .card-body img {
-  width: 120px;
-  height: 120px;
-  border-radius: 20%;
-}
-
-.main-title {
-  text-align: left;
-  padding-left: 20vw;
-  padding-top: 1vw;
-  font-family: "Arimo", sans-serif;
-  text-decoration: underline;
-}
-
-#text-container {
-  max-width: 45vw;
-  font-family: "Arimo", sans-serif;
-  font-size: 20px;
-  text-align: center;
-  margin-left: 2vw;
-}
-
-.left-img {
-  margin-left: 6vw;
-  align-self: flex-end;
-  width: 500px;
-  height: 400px;
+.cont2 {
+  max-width: 31.25rem;
+  min-width: 31.25rem;
 }

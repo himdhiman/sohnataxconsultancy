@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+.service-heading {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-family: "Caveat", cursive;
+}
+
+.service-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 2rem auto;
+}
+
+.card {
+  min-width: 440px;
+  max-width: 440px;
+  min-height: 150px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 0.5rem;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.card h2 {
+  font-size: 2rem;
+  margin-left: 1rem;
+  font-family: "Caveat", cursive;
+  color: white;
+}
+
+.card p {
+  font-size: 1.3rem;
+  color: white;
+  font-family: "Caveat", cursive;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  border: 2px solid white;
+}
+/*# sourceMappingURL=servicesfinal.css.map */

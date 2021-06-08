@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat:wght@700&display=swap");
+.contact-heading {
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 2rem;
+  color: white;
+}
+
+.main-form-div {
+  margin-bottom: 3rem;
+}
+
+.row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.row1 input {
+  max-width: 39vw;
+  min-width: 39vw;
+  min-height: 2.5rem;
+  max-height: 2.5rem;
+  margin-top: 1rem;
+  border: 1px solid silver;
+  margin-left: 2rem;
+  border-radius: 0.5rem;
+  background-color: silver;
+  color: black;
+  font-family: "Caveat", cursive;
+}
+
+.row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.row2 input {
+  max-width: 80vw;
+  min-width: 80vw;
+  min-height: 2.5rem;
+  max-height: 2.5rem;
+  border: 1px solid silver;
+  margin-left: 2rem;
+  border-radius: 0.5rem;
+  background-color: silver;
+  color: black;
+  font-family: "Caveat", cursive;
+}
+
+.row3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.row3 textarea {
+  max-width: 80vw;
+  min-width: 80vw;
+  min-height: 6.25rem;
+  max-height: 6.25rem;
+  overflow-y: scroll;
+  border: 1px solid silver;
+  margin-left: 2rem;
+  border-radius: 0.5rem;
+  background-color: silver;
+  color: black;
+  font-family: "Caveat", cursive;
+}
+
+.btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn-container button {
+  max-width: 6.25rem;
+  min-width: 6.25rem;
+  min-height: 1.875rem;
+  max-height: 1.875rem;
+}
+/*# sourceMappingURL=contact.css.map */
