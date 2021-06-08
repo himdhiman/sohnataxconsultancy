@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/sohnataxconsultancy/static/css/main.5ce5c7f7.chunk.css",
-    "main.js": "/sohnataxconsultancy/static/js/main.4b44e893.chunk.js",
-    "main.js.map": "/sohnataxconsultancy/static/js/main.4b44e893.chunk.js.map",
+    "main.css": "/sohnataxconsultancy/static/css/main.dd37fece.chunk.css",
+    "main.js": "/sohnataxconsultancy/static/js/main.e8735cf0.chunk.js",
+    "main.js.map": "/sohnataxconsultancy/static/js/main.e8735cf0.chunk.js.map",
     "runtime-main.js": "/sohnataxconsultancy/static/js/runtime-main.1ff5df09.js",
     "runtime-main.js.map": "/sohnataxconsultancy/static/js/runtime-main.1ff5df09.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/sohnataxconsultancy/static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.e0b0e828.chunk.js": "/sohnataxconsultancy/static/js/2.e0b0e828.chunk.js",
-    "static/js/2.e0b0e828.chunk.js.map": "/sohnataxconsultancy/static/js/2.e0b0e828.chunk.js.map",
+    "static/js/2.f8cc5956.chunk.js": "/sohnataxconsultancy/static/js/2.f8cc5956.chunk.js",
+    "static/js/2.f8cc5956.chunk.js.map": "/sohnataxconsultancy/static/js/2.f8cc5956.chunk.js.map",
     "index.html": "/sohnataxconsultancy/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/sohnataxconsultancy/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.5ce5c7f7.chunk.css.map": "/sohnataxconsultancy/static/css/main.5ce5c7f7.chunk.css.map",
-    "static/js/2.e0b0e828.chunk.js.LICENSE.txt": "/sohnataxconsultancy/static/js/2.e0b0e828.chunk.js.LICENSE.txt",
-    "static/media/img1.755d36ff.jpg": "/sohnataxconsultancy/static/media/img1.755d36ff.jpg",
-    "static/media/template1.69564449.jpg": "/sohnataxconsultancy/static/media/template1.69564449.jpg",
-    "static/media/template2.2572bd83.jpg": "/sohnataxconsultancy/static/media/template2.2572bd83.jpg"
+    "static/css/main.dd37fece.chunk.css.map": "/sohnataxconsultancy/static/css/main.dd37fece.chunk.css.map",
+    "static/js/2.f8cc5956.chunk.js.LICENSE.txt": "/sohnataxconsultancy/static/js/2.f8cc5956.chunk.js.LICENSE.txt",
+    "static/media/car1.7f1477a2.png": "/sohnataxconsultancy/static/media/car1.7f1477a2.png",
+    "static/media/car2.455a54d8.png": "/sohnataxconsultancy/static/media/car2.455a54d8.png",
+    "static/media/img1.74ba64fc.jpg": "/sohnataxconsultancy/static/media/img1.74ba64fc.jpg",
+    "static/media/img2.7a7554d7.jpg": "/sohnataxconsultancy/static/media/img2.7a7554d7.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1ff5df09.js",
     "static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.e0b0e828.chunk.js",
-    "static/css/main.5ce5c7f7.chunk.css",
-    "static/js/main.4b44e893.chunk.js"
+    "static/js/2.f8cc5956.chunk.js",
+    "static/css/main.dd37fece.chunk.css",
+    "static/js/main.e8735cf0.chunk.js"
   ]
 }
