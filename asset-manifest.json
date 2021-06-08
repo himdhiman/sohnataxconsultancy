@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sohnataxconsultancy/static/css/main.69fb2121.chunk.css",
+    "main.css": "/sohnataxconsultancy/static/css/main.a8007c2a.chunk.css",
     "main.js": "/sohnataxconsultancy/static/js/main.55793e61.chunk.js",
     "main.js.map": "/sohnataxconsultancy/static/js/main.55793e61.chunk.js.map",
     "runtime-main.js": "/sohnataxconsultancy/static/js/runtime-main.1ff5df09.js",
@@ -10,7 +10,7 @@
     "static/js/2.f8cc5956.chunk.js.map": "/sohnataxconsultancy/static/js/2.f8cc5956.chunk.js.map",
     "index.html": "/sohnataxconsultancy/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/sohnataxconsultancy/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.69fb2121.chunk.css.map": "/sohnataxconsultancy/static/css/main.69fb2121.chunk.css.map",
+    "static/css/main.a8007c2a.chunk.css.map": "/sohnataxconsultancy/static/css/main.a8007c2a.chunk.css.map",
     "static/js/2.f8cc5956.chunk.js.LICENSE.txt": "/sohnataxconsultancy/static/js/2.f8cc5956.chunk.js.LICENSE.txt",
     "static/media/car1.7f1477a2.png": "/sohnataxconsultancy/static/media/car1.7f1477a2.png",
     "static/media/car2.455a54d8.png": "/sohnataxconsultancy/static/media/car2.455a54d8.png",
@@ -21,7 +21,7 @@
     "static/js/runtime-main.1ff5df09.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.f8cc5956.chunk.js",
-    "static/css/main.69fb2121.chunk.css",
+    "static/css/main.a8007c2a.chunk.css",
     "static/js/main.55793e61.chunk.js"
   ]
 }
