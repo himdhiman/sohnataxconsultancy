@@ -13,72 +13,79 @@
   color: #fdf4f4;
   position: absolute;
   font-family: "Caveat", cursive;
-  display: -ms-inline-grid;
-  display: inline-grid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .data-div1 img {
-  -ms-grid-column: 1;
-      grid-column-start: 1;
-  margin-left: 12rem;
+  margin-left: 5vw;
   height: 50vh;
+  width: 35vw;
+  max-width: 35vw;
 }
 
 .data-div1 h1 {
-  margin-left: 5rem;
-  -ms-grid-column: 2;
-      grid-column-start: 2;
-  top: 10vh;
-  right: 10vw;
-  font-size: 4rem;
+  margin-top: 10vh;
+  margin-left: 5vw;
+  font-size: 4vw;
 }
 
 .data-div1 p {
-  -ms-grid-column: 3;
-      grid-column-start: 3;
   top: 10vh;
   right: 10vw;
   margin-top: 3rem;
   font-size: 2rem;
+}
+
+.data-div1:hover {
+  cursor: default;
 }
 
 .data-div2 {
   color: #fdf4f4;
   position: absolute;
   font-family: "Caveat", cursive;
-  display: -ms-inline-grid;
-  display: inline-grid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .data-div2 img {
-  -ms-grid-column: 2;
-      grid-column-start: 2;
-  margin-left: 15rem;
+  margin-left: 20vw;
   height: 50vh;
+  width: 35vw;
+  max-width: 35vw;
 }
 
 .data-div2 h1 {
-  margin-left: 12rem;
-  -ms-grid-column: 1;
-      grid-column-start: 1;
-  top: 10vh;
-  right: 10vw;
-  font-size: 4rem;
+  margin-left: 10vw;
+  font-size: 4vw;
 }
 
 .data-div2 p {
-  -ms-grid-column: 1;
-      grid-column-start: 1;
   top: 10vh;
   right: 10vw;
   margin-top: 3rem;
   font-size: 2rem;
 }
 
+.data-div2:hover {
+  cursor: default;
+}
+
 .right-arrow {
   color: #fdf4f4;
   position: absolute;
-  top: 22vh;
+  top: 30vh;
   right: 2vw;
   font-size: 2rem;
 }
@@ -86,7 +93,7 @@
 .left-arrow {
   color: #fdf4f4;
   position: absolute;
-  top: 22vh;
+  top: 30vh;
   left: 2vw;
   font-size: 2rem;
 }

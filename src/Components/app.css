@@ -5,6 +5,8 @@
 
 body {
   margin: 0;
+  background: #eeaeca;
+  background: radial-gradient(circle, #eeaeca 0%, #624753 0%, #46333b 65%, #443239 66%, black 100%);
 }
 
 html {

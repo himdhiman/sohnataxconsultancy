@@ -8,7 +8,7 @@ function ServicesFinal() {
         <h1>Our Services</h1>
       </div>
 
-      <div className="service-cards">
+      <div className="service-cards" data-aos="zoom-in-up">
         <div className="card one">
           <h2>GST</h2>
           <p>

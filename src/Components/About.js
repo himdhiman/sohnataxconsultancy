@@ -10,7 +10,7 @@ function About() {
         <h1>About</h1>
       </div>
       <div className="about-div">
-        <div className="about-content cont1">
+        <div className="about-content cont1" data-aos="fade-right">
           <p>
             Sohna Tax Consultancy Services is an accounting and consultancy firm
             providing a comprehensive range of business advisory services to a
@@ -20,12 +20,12 @@ function About() {
           </p>
         </div>
         <div className="about-content cont2">
-          <img src={img1}></img>
+          <img src={img1} data-aos="fade-left"></img>
         </div>
         <div className="about-content cont2">
-          <img src={img2}></img>
+          <img src={img2} data-aos="fade-right"></img>
         </div>
-        <div className="about-content cont1">
+        <div className="about-content cont1" data-aos="fade-left">
           <p>
             Our firm is dedicated to the needs of businesses and to achieve
             their ambitions locally and nationaly. We work closely with our

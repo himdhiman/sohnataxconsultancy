@@ -12,7 +12,6 @@
   margin-top: -0.5rem;
   flex-wrap: wrap;
   padding-bottom: 2rem;
-  // background-color: gray;
 }
 
 .brand {
@@ -24,6 +23,10 @@
   font-family: "Dancing Script", cursive;
 }
 
+.brand:hover {
+  cursor: default;
+}
+
 .contactdetails {
   padding-right: 1.5rem;
   font-family: "Source Code Pro", monospace;
@@ -32,6 +35,10 @@
   line-height: 1.6rem;
   display: flex;
   flex-wrap: wrap;
+}
+
+.contactdetails:hover {
+  cursor: default;
 }
 
 .maildiv {

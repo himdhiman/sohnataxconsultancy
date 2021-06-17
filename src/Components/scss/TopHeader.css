@@ -28,6 +28,10 @@
   font-family: "Dancing Script", cursive;
 }
 
+.brand:hover {
+  cursor: default;
+}
+
 .contactdetails {
   padding-right: 1.5rem;
   font-family: "Source Code Pro", monospace;
@@ -39,6 +43,10 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.contactdetails:hover {
+  cursor: default;
 }
 
 .maildiv {

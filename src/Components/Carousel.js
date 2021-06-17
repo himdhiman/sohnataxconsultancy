@@ -32,8 +32,6 @@ function Carousel() {
   return (
     <div>
       <div className="carousel-container">
-        <FaChevronLeft className="left-arrow" onClick={prevSlide} />
-        <FaChevronRight className="right-arrow" onClick={nextSlide} />
         <div key="0">
           {current === 0 && (
             <div className="data-div1">
@@ -117,7 +115,8 @@ function Carousel() {
           )}
         </div>
       </div>
-
+      <FaChevronLeft className="left-arrow" onClick={prevSlide} />
+      <FaChevronRight className="right-arrow" onClick={nextSlide} />
       <div className="state-container">
         <div className="dot-container">
           <span id="dot-a"></span>

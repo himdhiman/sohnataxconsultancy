@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap");
 .contact-heading {
   text-align: center;
   font-family: "Caveat", cursive;
   font-size: 2rem;
   color: white;
+}
+
+.contact-heading:hover {
+  cursor: default;
 }
 
 .main-form-div {
@@ -37,7 +42,7 @@
   border-radius: 0.5rem;
   background-color: silver;
   color: black;
-  font-family: "Caveat", cursive;
+  font-family: "Baloo Tammudu 2", cursive;
 }
 
 .row2 {
@@ -66,7 +71,7 @@
   border-radius: 0.5rem;
   background-color: silver;
   color: black;
-  font-family: "Caveat", cursive;
+  font-family: "Baloo Tammudu 2", cursive;
 }
 
 .row3 {
@@ -96,7 +101,7 @@
   border-radius: 0.5rem;
   background-color: silver;
   color: black;
-  font-family: "Caveat", cursive;
+  font-family: "Baloo Tammudu 2", cursive;
 }
 
 .btn-container {
@@ -113,6 +118,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-family: "Baloo Tammudu 2", cursive;
 }
 
 .btn-container button {

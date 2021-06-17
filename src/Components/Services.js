@@ -4,7 +4,7 @@ import "./scss/service.css";
 function Services() {
   return (
     <>
-      <div className="boxcontainer">
+      <div className="boxcontainer" data-aos="fade-up">
         <div className="box">
           <div className="heading-div">
             <h2 className="card-heading">

@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap");
 
 .about-heading {
   text-align: center;
   color: white;
   font-size: 2rem;
   font-family: "Caveat", cursive;
+}
+
+.about-heading:hover {
+  cursor: default;
 }
 
 .about-div {
@@ -16,20 +21,14 @@
 
 .about-content {
   margin: 1rem auto;
-  // max-width: 650px;
-  // min-width: 650px;
   min-height: 12.5rem;
-  // max-height: 200px;
-  // background-color: white;
   border-radius: 1rem;
   p {
     color: white;
     text-align: center;
     font-size: 1.2rem;
-    margin-top: 3rem;
-    // margin-left: 7rem;
-    // margin-right: 7rem;
-    font-family: "Architects Daughter", cursive;
+    margin-top: 2rem;
+    font-family: "Baloo Tammudu 2", cursive;
     transition-duration: 1s;
   }
 
@@ -55,7 +54,16 @@
   max-width: 50rem;
   min-width: 50rem;
 }
+
+.cont1:hover {
+  cursor: pointer;
+}
+
 .cont2 {
   max-width: 31.25rem;
   min-width: 31.25rem;
+}
+
+.cont2:hover {
+  cursor: pointer;
 }

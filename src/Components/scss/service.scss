@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap");
+
 .boxcontainer {
+  font-family: "Baloo Tammudu 2", cursive;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -12,7 +15,7 @@
   min-width: 21.875rem;
   max-width: 21.875rem;
   min-height: 15.625rem;
-  background-color: #dadada;
+  background-color: #d3d3d3;
   border-radius: 2rem 2rem 2rem 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
@@ -27,6 +30,12 @@
 .box:hover {
   transform: scale(1.05);
   background-color: whitesmoke;
+  color: #443239;
+  font-weight: bolder;
+
+  h2 {
+    color: black;
+  }
 }
 
 .heading-div {
